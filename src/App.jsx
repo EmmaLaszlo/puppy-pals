@@ -15,7 +15,7 @@ function App() {
   return (
     <div className="App">
       {/* List of Puppy Names */}
-      <div className="card">
+      <div className="puppy-list">
       {puppies.map((puppy) => (
         <p 
           key={puppy.id} 
